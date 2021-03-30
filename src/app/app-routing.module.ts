@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
-import { BlueprintComponent } from './side-menu/blueprint/blueprint.component'
 import { RouterModule, Routes } from '@angular/router';
+import { BlueprintComponent } from './blueprint/blueprint.component';
+import {WindowComponent} from './window/window.component';
 const routes: Routes = [
   {
     path: '', 
-    component: BlueprintComponent,
+    component: WindowComponent,
   }
 
 ];
