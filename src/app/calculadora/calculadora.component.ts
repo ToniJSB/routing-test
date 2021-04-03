@@ -1,13 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output,  OnInit } from '@angular/core';
+import { WindowComponent } from '../window/window.component';
 
 @Component({
   selector: 'app-calculadora',
   templateUrl: './calculadora.component.html',
   styleUrls: ['./calculadora.component.scss']
 })
-export class CalculadoraComponent implements OnInit {
+export class CalculadoraComponent extends WindowComponent implements OnInit {
 
-  constructor() { }
+
+  constructor() {
+    super("Calculadora")
+   }
 
   ngOnInit(): void {
   }
