@@ -1,6 +1,7 @@
 
+<div ngClass="d-flex p-2 bg-primary">
 
-<mat-card class="example-card bg-dark" cdkDragBoundary=".droppeableMain" cdkDrag>
+<mat-card ngClass="example-card bg-secondary" cdkDragBoundary=".droppeableMain" cdkDrag>
     <div class="d-flex justify-content-between">
         <div>
             <span class="material-icons">
@@ -8,7 +9,7 @@
                 </span>                
         </div>
         <div>
-            <mat-card-title>casa</mat-card-title>
+            <mat-card-title>{{componentName}}</mat-card-title>
         </div>
         <div>
             <span class="material-icons">
@@ -30,3 +31,5 @@
       <button mat-button>SHARE</button>
     </mat-card-actions>
   </mat-card>
+
+</div>

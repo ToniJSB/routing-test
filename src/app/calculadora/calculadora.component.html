@@ -1,9 +1,9 @@
-<base-window [templateRef]="calculadoraTemplate" ></base-window>
+<base-window [templateRef]="calculadoraTemplate" [componentName]="this.componentName" ></base-window>
 
-<ng-template #calculadoraTemplate>
+<ng-template #calculadoraTemplate >
     <div class="d-inline-flex justify-content-center">
         <form action="#" name="calculadora" id="calculadora">
-            <p id="textoPantalla">nope</p>
+            <p id="textoPantalla">0</p>
             <p>
             <input type="button" class="largo" value="Retr" onclick="retro()"   />
             <input type="button" class="largo" value="CE" onclick="borradoParcial()"  />

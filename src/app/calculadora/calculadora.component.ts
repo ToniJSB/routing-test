@@ -1,4 +1,4 @@
-import { Component, Output,  OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { WindowComponent } from '../window/window.component';
 
 @Component({
@@ -8,9 +8,11 @@ import { WindowComponent } from '../window/window.component';
 })
 export class CalculadoraComponent extends WindowComponent implements OnInit {
 
+  componentName: String;
 
   constructor() {
-    super("Calculadora")
+    super()
+    this.componentName = 'Calculadora'
    }
 
   ngOnInit(): void {

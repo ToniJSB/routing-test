@@ -2,7 +2,24 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import "~bootstrap/scss/mixins";
 
+
+$primary:       $blue-500 !default;
+$secondary:     $teal-300 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+);
 
 
 .window{
@@ -21,5 +38,7 @@
 .menu-icon{
     background-color: rgb(143, 65, 179);
 }
+
 html, body { height: 100%; }
+
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

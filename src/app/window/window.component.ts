@@ -6,10 +6,11 @@ import { Component, OnInit, Input, TemplateRef } from '@angular/core';
 })
 export class WindowComponent implements OnInit {
   @Input() templateRef: TemplateRef<any>;
-  public componentName:String;
+  
+  @Input() componentName:String;
 
-  constructor(componentName: String) { 
-    this.componentName = componentName;
+  constructor() { 
+    
   }
 
   ngOnInit(): void {
