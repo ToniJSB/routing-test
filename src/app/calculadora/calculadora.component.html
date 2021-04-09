@@ -10,30 +10,30 @@
             <input type="button" class="largo" value="C" (click)="borradoTotal()"  />
             </p>
             <p>
-            <input type="button" value="7" (click)="this.messageService.addValOperacion('7')" />
-            <input type="button" value="8" (click)="this.messageService.addValOperacion('8')" />
-            <input type="button" value="9" (click)="this.messageService.addValOperacion('9')" />
+            <input type="button" value="7" (click)="add('7')" />
+            <input type="button" value="8" (click)="add('8')" />
+            <input type="button" value="9" (click)="add('9')" />
             <input type="button" value="/" (click)="operar('/')"  />
             <input type="button" value="Raiz" (click)="raizc()" />
             </p>
             <p>
-            <input type="button" value="4" (click)="this.messageService.addValOperacion('4')" />
-            <input type="button" value="5" (click)="this.messageService.addValOperacion('5')" />
-            <input type="button" value="6" (click)="this.messageService.addValOperacion('6')" />
+            <input type="button" value="4" (click)="add('4')" />
+            <input type="button" value="5" (click)="add('5')" />
+            <input type="button" value="6" (click)="add('6')" />
             <input type="button" value="*" (click)="operar('*')" />
             <input type="button" value="%" (click)="porcent()" />
             </p>
             <p>
-            <input type="button" value="1" (click)="this.messageService.addValOperacion('1')" />
-            <input type="button" value="2" (click)="this.messageService.addValOperacion('2')" />
-            <input type="button" value="3" (click)="this.messageService.addValOperacion('3')" />
+            <input type="button" value="1" (click)="add('1')" />
+            <input type="button" value="2" (click)="add('2')" />
+            <input type="button" value="3" (click)="add('3')" />
             <input type="button" value="-" (click)="operar('-')" />
             <input type="button" value="1/x" (click)="inve()" />
             </p>
             <p>
-            <input type="button" value="0" (click)="this.messageService.addValOperacion('0')" />
+            <input type="button" value="0" (click)="add('0')" />
             <input type="button" value="+/-" (click)="opuest()" />
-            <input type="button" value="." (click)="this.messageService.addValOperacion('.')" />
+            <input type="button" value="." (click)="add('.')" />
             <input type="button" value="+" (click)="operar('+')" />
             <input type="button" value="=" (click)="igualar()" />
             </p>
