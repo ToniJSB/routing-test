@@ -12,12 +12,15 @@ import { AppComponent } from './app.component';
 import { BlueprintComponent } from './blueprint/blueprint.component';
 // import { WindowComponent } from './window/window.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RedsocialComponent } from './redsocial/redsocial.component';
+import { RedsocialModule } from './redsocial/redsocial.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BlueprintComponent,
+    RedsocialComponent,
     // WindowComponent
   ],
   imports: [
@@ -27,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NgbModule,
     // MatCardModule,
     CalculadoraModule,
+    RedsocialModule,
     AppRoutingModule,
     BrowserAnimationsModule,
   ],
