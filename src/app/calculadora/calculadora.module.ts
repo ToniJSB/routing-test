@@ -4,12 +4,11 @@ import {MatCardModule} from '@angular/material/card';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import {CalculadoraComponent} from './calculadora.component';
 import { CalculadoraRoutingModule } from './calculadora-routing.module';
-import { WindowComponent } from '../window/window.component';
+import { WindowModule } from '../window/window.module';
 
 
 @NgModule({
   declarations: [
-    WindowComponent,
     CalculadoraComponent
   ],
   imports: [

@@ -4,11 +4,10 @@ import { MatCardModule } from '@angular/material/card';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { RedsocialComponent } from './redsocial.component';
 import { RedsocialRoutingModule } from './redsocial-routing.module';
-import { WindowComponent } from '../window/window.component';
+import { WindowModule } from '../window/window.module';
 
 @NgModule({
     declarations: [
-        WindowComponent,
         RedsocialComponent
     ],
     imports: [

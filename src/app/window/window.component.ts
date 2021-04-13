@@ -7,7 +7,7 @@ import { Component, OnInit, Input, TemplateRef } from '@angular/core';
 export class WindowComponent implements OnInit {
   @Input() templateRef: TemplateRef<any>;
   
-  @Input() componentName:String;
+  @Input() componentName: string;
 
   constructor() { 
     
